@@ -1,0 +1,13 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public abstract class Ability : MonoBehaviour
+{
+    public abstract void Use();
+
+    public virtual void Use(Transform origin, Transform target)
+    {
+
+    }
+}

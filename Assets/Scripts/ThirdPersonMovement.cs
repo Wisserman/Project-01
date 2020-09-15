@@ -101,8 +101,6 @@ public class ThirdPersonMovement : MonoBehaviour
                 _animationState = "Falling";
             }
         }
-
-        Debug.Log(_animationState);
     }
 
 
